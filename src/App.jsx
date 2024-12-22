@@ -1,13 +1,20 @@
+import { BrowserRouter as Router } from "react-router-dom"; // Import Router components
 
-import './App.css'
+import { WebRouter } from "./Routes/WebRouter";
+import Footer from "./Template/Footer";
+import Header from "./Template/Header";
 
 function App() {
   return (
-    <>
-      <div>
-      <h1 className='text-green-300 uppercase font-normal text-centar'>hello bangladesh</h1>
-      </div>
-    </>
+<Router>
+      <Header /> {/* Navigation bar */}
+
+      <WebRouter />
+
+      <Footer />
+      
+    </Router>
+    
   )
 }
 
