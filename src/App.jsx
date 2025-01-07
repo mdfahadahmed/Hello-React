@@ -6,15 +6,14 @@ import Header from "./Template/Header";
 
 function App() {
   return (
-<Router>
-      <Header /> {/* Navigation bar */}
+    <Router>
+      <Header /> 
 
-      <WebRouter />
+        <WebRouter />
 
       <Footer />
       
-    </Router>
-    
+    </Router> 
   )
 }
 

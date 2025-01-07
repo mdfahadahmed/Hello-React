@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import LoadingGif from "../assets/loading.gif";
+import LoadingGif from "../assets/loading-raunded.gif";
 
 function Loadding() {
   const [Loading, setLoading] = useState(false);

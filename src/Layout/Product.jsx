@@ -35,7 +35,7 @@ const Product = () => {
   }
 
   return (
-    <div className="product-section container m-auto justify-center items-center align-middle flex-wrap">
+    <div className="product-section container m-auto justify-center items-center align-middle flex-wrap ">
       <div className="product-title text-center">
         <h2 className="text-black text-5xl font-bold">All Products</h2>
       </div>
@@ -46,7 +46,7 @@ const Product = () => {
               <img
                 src={product.image}
                 alt={product.title}
-                className="w-full h-40 object-cover mb-4 rounded-md"
+                className="w-full h-[350px] p-3 mb-4 rounded-md"
               />
               <h2 className="font-semibold text-lg">{product.title}</h2>
               <p className="text-sm text-gray-600">{product.description}</p>
