@@ -16,6 +16,7 @@ const Home = () => {
         </div>
       </section>
       <section className="py-14 bg-[#f1f1f1]">
+        <h1 className="text-center text-2xl font-bold mb-10">Our Products</h1>
         <Product/>
       </section>
     </>
